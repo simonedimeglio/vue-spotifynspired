@@ -1,0 +1,10 @@
+@import "_color.scss";
+
+header {
+    background-color: $header-bg-color;
+}
+
+main {
+    background-color: $main-bg-color;
+    padding-top: 50px;
+}

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    {{discs}}
+    
     <Header />
     <Main :discs="discs"/>
   </div>
@@ -29,4 +29,5 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./style/app.scss"
 </style>
